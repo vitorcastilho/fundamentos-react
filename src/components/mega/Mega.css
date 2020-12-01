@@ -1,0 +1,23 @@
+.Mega {
+
+}
+
+.Mega-qtde {
+    padding: 5px;
+}
+.Mega-qtde input {
+    padding: 5px 10px;
+    width: 50px;
+    margin-left: 10px;
+    border: 1px solid #e74c3c;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Mega button {
+    border: none;
+    background: #e74c3c;
+    color: #FFF;
+    padding: 8px 20px;
+    border-radius: 10px;
+}

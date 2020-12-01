@@ -17,6 +17,7 @@ import DiretaPai from './components/comunicacao/DiretaPai'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
 import Input from './components/formulario/Input'
 import Contador from './components/contador/Contador'
+import Mega from './components/mega/Mega'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => {
@@ -26,9 +27,13 @@ export default props => {
 
             <div className='Cards'>
 
+                <Card titulo='#13 - Mega' color='#e74c3c'>
+                    <Mega qtde={6}/>
+                </Card>
+
                 <Card titulo='#12 - Contador' color='#e67e22'>
                     <Contador numeroInicial={10}></Contador>
-                    <Contador numeroInicial={100}></Contador>
+                    {/* <Contador numeroInicial={100}></Contador> */}
                 </Card>
 
                 <Card titulo='#11 - Componente Controlado' color='#f1c40f'>
