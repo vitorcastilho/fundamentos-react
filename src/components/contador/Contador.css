@@ -1,0 +1,32 @@
+.Contador-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Contador-passo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contador-passo label {
+    margin-right: 5px;
+}
+
+.Contador-passo input {
+    padding: 8px 10px;
+    border: 1px solid #e67e22;
+    border-radius: 10px;
+    width: 50px;
+}
+
+.Contador-content button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: #FFF;
+    background: #e67e22;
+    border-radius: 50%;
+    font-weight: 700;
+}

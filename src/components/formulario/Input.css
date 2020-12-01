@@ -1,0 +1,20 @@
+.Input h2 {
+    font-weight: 500;
+}
+
+.Input input {
+    font-size: 1.2rem;
+}
+
+.Input-controlado {
+    display: flex;
+    flex-direction: column;
+}
+
+.Input-controlado input {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #f1c40f;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
